@@ -9,7 +9,7 @@ const cookieParser = require("cookie-parser");
 
 const app = express();
 app.use(cors({
-  origin:  "https://zclone-frontend.onrender.com",
+  origin:  ["https://zclone-frontend.onrender.com", "https://zclone-dashboard.onrender.com"],
   credentials: true,
 }));
 app.use(bodyParser.json());

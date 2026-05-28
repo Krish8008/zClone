@@ -38,7 +38,7 @@ const Login = () => {
     try {
 
       const { data } = await axios.post(
-        "http://localhost:3002/login",
+        "https://zclone-1xz2.onrender.com/login",
         {
           ...inputValue,
         },
@@ -51,7 +51,7 @@ const Login = () => {
       if (success) {
         handleSuccess(message);
         setTimeout(() => {
-          window.location.href = "http://localhost:3001";
+          window.location.href = "https://zclone-dashboard.onrender.com";
         }, 1000);
 
       } else {

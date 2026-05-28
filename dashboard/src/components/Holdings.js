@@ -21,7 +21,7 @@ const Holdings = () => {
       try {
 
         const res = await axios.get(
-          "http://localhost:3002/allHoldings"
+          "https://zclone-1xz2.onrender.com/allHoldings"
         );
 
         setHoldings(res.data);

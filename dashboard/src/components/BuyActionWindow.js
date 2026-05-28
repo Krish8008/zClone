@@ -23,14 +23,14 @@ const BuyActionWindow = ({ uid }) => {
       return;
     }
 
-    axios.post("http://localhost:3002/newOrder", {
+    axios.post("https://zclone-1xz2.onrender.com/newOrder", {
       name: uid,
       qty,
       price,
       mode: "BUY",
     });
 
-    axios.post("http://localhost:3002/addHolding", {
+    axios.post("https://zclone-1xz2.onrender.com/addHolding", {
       name: uid,
       qty,
       avg: price,     

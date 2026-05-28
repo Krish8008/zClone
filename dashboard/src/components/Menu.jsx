@@ -22,7 +22,7 @@ const Menu = () => {
     try {
 
       await axios.post(
-        "http://localhost:3002/logout",
+        "https://zclone-1xz2.onrender.com/logout",
         {},
         {
           withCredentials: true,
@@ -32,7 +32,7 @@ const Menu = () => {
       localStorage.removeItem("user");
 
       window.location.href =
-        "http://localhost:3000/login";
+        "https://zclone-frontend.onrender.com/login";
 
     } catch (err) {
 

@@ -12,7 +12,7 @@ const Orders = () => {
   useEffect(() => {
     const fetchOrders = async () => {
       try {
-        const res = await axios.get("http://localhost:3002/allOrder");
+        const res = await axios.get("https://zclone-1xz2.onrender.com/allOrder");
         setOrders(res.data);
       } catch (err) {
         console.log(err);

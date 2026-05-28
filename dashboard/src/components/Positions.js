@@ -11,7 +11,7 @@ const Positions = () => {
 
   useEffect(() => {
     async function fetchPositions(){
-      const res = await axios.get("http://localhost:3002/allPositions");
+      const res = await axios.get("https://zclone-1xz2.onrender.com/allPositions");
       setPositions(res.data);
     }
     fetchPositions();

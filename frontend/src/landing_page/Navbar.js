@@ -54,8 +54,8 @@ function Navbar() {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="signup">
-                  Signup
+                <a class="nav-link active" aria-current="page" href="login">
+                  Login
                 </a>
               </li>
             </ul>

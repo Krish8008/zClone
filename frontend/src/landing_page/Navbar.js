@@ -53,6 +53,11 @@ function Navbar() {
                   Support
                 </a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="signup">
+                  Signup
+                </a>
+              </li>
             </ul>
           </form>
         </div>
